@@ -3,7 +3,7 @@ FROM mono
 WORKDIR /root
 
 RUN apt-get update && apt-get install unzip
-RUN curl https://s3-us-west-2.amazonaws.com/eco-releases/EcoServer_v0.7.2.3-beta.zip > EcoServer.zip
+RUN curl https://s3-us-west-2.amazonaws.com/eco-releases/EcoServer_v0.7.2.4-beta.zip > EcoServer.zip
 RUN unzip EcoServer.zip && rm EcoServer.zip
 RUN sed -i 's/MediumCollaboration/LowCollaboration/' Configs/Difficulty.eco && \
 	sed -i 's/"x": 72/"x": 100/' Configs/WorldGenerator.eco && \
