@@ -1,4 +1,4 @@
-This is a dockerized version of the Eco server version Beta 7.4.6
+This is a dockerized version of the Eco server version Beta 7.4.7
 
 See https://eco.gamepedia.com/ for more information about this great game.
 
